@@ -9,7 +9,7 @@ class MonthDay{
         } else if (a == "April" || a== "June" || a== "September" || a == "November") {
             System.out.println("This month has 30 days");
         }else {
-            if(n%400 == 0 && n%100 !=0 || n%4==0){
+            if(n%400 == 0 || n%100 !=0 && n%4==0){
                 System.out.println("This month has 29 days");
             }else {
                 System.out.println("This month has 28 days");
